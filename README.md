@@ -27,4 +27,32 @@
 | Iniziativa     | Attiva (dall'emittente)         | Passiva (dall'utente)           |
 | Coinvolgimento | Immediato                        | Maggiore profondità              |
 | Esempi         | Notifiche, email                 | Ricerca, social media            |
+# Commit e Clone in Git
+
+## Commit
+
+- **Definizione**: Un commit in Git rappresenta un'istantanea del progetto in un determinato momento. Registra le modifiche apportate ai file nel repository.
+- **Esempi di utilizzo**:
+  - `git commit -m "Messaggio del commit"`: Commettere le modifiche con un messaggio descrittivo.
+- **Vantaggi**:
+  - Permette di tenere traccia delle modifiche nel tempo.
+  - Consente di tornare a versioni precedenti del progetto.
+  - Facilita la collaborazione tra più sviluppatori.
+
+## Clone
+
+- **Definizione**: Il comando `clone` crea una copia locale di un repository remoto. Questo include tutti i file, la cronologia dei commit e i branch.
+- **Esempi di utilizzo**:
+  - `git clone https://github.com/utente/repository.git`: Clonare un repository remoto sul proprio computer.
+- **Vantaggi**:
+  - Permette di lavorare su un progetto in locale, senza influenzare la versione remota.
+  - Facilita la collaborazione, permettendo a più sviluppatori di avere una copia del progetto per lavorare insieme.
+
+## Confronto
+
+| Caratteristica | Commit                              | Clone                                 |
+|----------------|-------------------------------------|---------------------------------------|
+| Funzione       | Registra modifiche nel repository   | Crea una copia locale del repository   |
+| Scopo          | Salvare progressi                   | Iniziare a lavorare su un progetto    |
+| Comando        | `git commit -m "Messaggio"`        | `git clone <URL del repository>`      |
 # git
